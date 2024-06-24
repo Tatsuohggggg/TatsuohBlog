@@ -1,0 +1,11 @@
+{
+    "articles": [
+        {
+            "title": "個人ブログを作ってみた",
+            "date": "20240624",
+            "thumbnail":"/ReactBlogThumbnail.png",
+            "link": "/tried_making_personal_blog.md",
+            "path": "/tried_making_personal_blog"
+        }
+    ]
+}

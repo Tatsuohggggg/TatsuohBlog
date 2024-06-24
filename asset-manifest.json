@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/TatsuohBlog/static/css/main.20ae57aa.css",
+    "main.js": "/TatsuohBlog/static/js/main.fad0298a.js",
+    "static/js/453.7ab4befc.chunk.js": "/TatsuohBlog/static/js/453.7ab4befc.chunk.js",
+    "static/media/photo1.jpg": "/TatsuohBlog/static/media/photo1.ddefb102607ac8eb2afa.jpg",
+    "index.html": "/TatsuohBlog/index.html",
+    "main.20ae57aa.css.map": "/TatsuohBlog/static/css/main.20ae57aa.css.map",
+    "main.fad0298a.js.map": "/TatsuohBlog/static/js/main.fad0298a.js.map",
+    "453.7ab4befc.chunk.js.map": "/TatsuohBlog/static/js/453.7ab4befc.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.20ae57aa.css",
+    "static/js/main.fad0298a.js"
+  ]
+}
