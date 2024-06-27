@@ -65,7 +65,7 @@ const Tabs = () => {
   const AnimationFinish5 = () => {setIsFinish5(true);}
 
   return (
-    <div className="d-flex align-items-start flex-column flex-wrap" style={{ width: "30vw",height: "80vh" }}>
+    <div className="d-flex flex-column" style={{ width: "30vw",height: "80vh" }}>
       <Link to="/About" href="/page1" className={`tab ${isFinish1 ? "corsorhover" : "tab-slide1"}`} style={{ fontSize: "24px", marginTop: "20px", marginLeft: "20px" }} onAnimationEnd={AnimationFinish1}>About</Link>
       <Link to="/Progress" href="/page2" className={`tab ${isFinish2 ? "corsorhover" : "tab-slide2"}`} style={{ fontSize: "24px", marginTop: "20px", marginLeft: "20px" }} onAnimationEnd={AnimationFinish2}>制作進捗</Link>
       <Link to="/GameDiary" href="/page3" className={`tab ${isFinish3 ? "corsorhover" : "tab-slide3"}`} style={{ fontSize: "24px", marginTop: "20px", marginLeft: "20px" }} onAnimationEnd={AnimationFinish3}>あそんだゲーム</Link>
