@@ -7,7 +7,6 @@ export const Progress = () => {
     const [files, setFiles] = useState([]);
     const location = useLocation();
     const nowpagepath = location.pathname;
-    console.log(nowpagepath);
 
     //JSONファイルを読み込む関数
     const fetchJsonData = async () => {
