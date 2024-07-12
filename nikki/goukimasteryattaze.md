@@ -1,10 +1,6 @@
 ![thumbnail](/master.png)
 
-豪鬼をマスターに上げることができたので、取り急ぎランクマで意識していたことを書いておきます。  
-ランクマを回す上で Notion に攻略メモを作っていたのでそのリンクも載せます。(今後も使っていく予定)  
-https://harsh-quit-0c5.notion.site/60c1793a9e054c839cbcd95bc35d503f?pvs=4
-
-<a target="_blank" href="https://harsh-quit-0c5.notion.site/60c1793a9e054c839cbcd95bc35d503f?pvs=4">豪鬼メモ帳</a>
+豪鬼をマスターに上げることができたので、取り急ぎランクマで意識していたことを書いておきます。
 
 ## 試合のペースを握る
 
