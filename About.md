@@ -11,7 +11,7 @@
 
 <div className="d-flex flex-column align-start">
 
-## たつお
+<p  style="font-size: 50px;">たつお</p>
 
 ゲームが好きです。  
 ロングスリーパーは常に寝不足。
