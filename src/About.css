@@ -1,8 +1,4 @@
-.AboutImage {
-    width: 128px;
-    height: 128px;
-}
-
-p {
-    margin-left: 8px;
+Image {
+  width: 128px;
+  height: 128px;
 }
