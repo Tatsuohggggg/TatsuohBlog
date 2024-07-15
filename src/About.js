@@ -1,9 +1,8 @@
-import { Container, Image } from "react-bootstrap";
+import { Container } from "react-bootstrap";
 import { useEffect, useState } from "react";
 import ReactMarkdown from "react-markdown";
 import rehypeRaw from "rehype-raw";
 import "./Body.css";
-import styles from "./About.css";
 import { articlestyle } from "./ArticleStyle";
 
 export const About = () => {
@@ -34,11 +33,7 @@ const AboutContent = () => {
   }, []);
 
   return (
-    <ReactMarkdown
-      rehypePlugins={rehypeRaw}
-      components={articlestyle}
-      className={styles.Image}
-    >
+    <ReactMarkdown rehypePlugins={rehypeRaw} components={articlestyle}>
       {aboutContent}
     </ReactMarkdown>
   );

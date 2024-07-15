@@ -4,14 +4,7 @@ import { Progress } from "./Progress";
 import { GameDiary } from "./GameDiary";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
-import {
-  Container,
-  Navbar,
-  Nav,
-  Row,
-  NavbarCollapse,
-  NavbarToggle,
-} from "react-bootstrap";
+import { Container, Navbar, Row } from "react-bootstrap";
 import { useState } from "react";
 import { RenderPage } from "./RenderPage";
 import { Nikki } from "./Nikki";
