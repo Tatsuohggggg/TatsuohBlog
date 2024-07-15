@@ -43,14 +43,19 @@ export const articlestyle = {
   ),
 
   p: ({ ...props }) => (
-    <p style={{ marginLeft: "12px", color: "white" }}>{props.children}</p>
+    <p style={{ fontSize: "18px", marginLeft: "12px", color: "white" }}>
+      {props.children}
+    </p>
   ),
   code: ({ ...props }) => (
     <p
       style={{
+        fontSize: "16px",
+        fontFamily: "Courier New",
         marginLeft: "12px",
         backgroundColor: "rgba(128,128,128,0.5)",
         border: "1px solid gray",
+        overflowX: "auto",
       }}
     >
       {props.children}

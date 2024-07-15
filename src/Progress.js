@@ -1,10 +1,4 @@
-import {
-  Link,
-  Routes,
-  Route,
-  BrowserRouter,
-  useLocation,
-} from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import { Container, Image } from "react-bootstrap";
 import { useState, useEffect } from "react";
 
