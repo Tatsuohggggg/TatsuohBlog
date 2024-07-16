@@ -8,50 +8,56 @@ import { Container, Navbar, Row } from "react-bootstrap";
 import { useState } from "react";
 import { RenderPage } from "./RenderPage";
 import { Nikki } from "./Nikki";
+import { Helmet } from "react-helmet";
 
 function App() {
   return (
-    <BrowserRouter>
-      <Container
-        fluid
-        className="overflow-hidden"
-        style={{
-          height: "100vh",
-          backgroundImage: `url('${process.env.PUBLIC_URL}/photo1.jpg')`,
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-          backgroundRepeat: "no-repeat",
-        }}
-      >
-        {/* <img src={`${process.env.PUBLIC_URL}/photo1.jpg`} /> */}
-        <Header />
-        <div
-          className="d-flex flex-row align-item-start text-left"
-          style={{ fontFamily: "Noto Sans JP" }}
+    <>
+      <Helmet>
+        <title>今日はもう寝ようぜ</title>
+      </Helmet>
+      <BrowserRouter>
+        <Container
+          fluid
+          className="overflow-hidden"
+          style={{
+            height: "100vh",
+            backgroundImage: `url('${process.env.PUBLIC_URL}/photo1.jpg')`,
+            backgroundSize: "cover",
+            backgroundPosition: "center",
+            backgroundRepeat: "no-repeat",
+          }}
         >
-          <Tabs />
-          <Routes>
-            <Route path="/About" element={<About />} />
-            <Route path="/Progress" element={<Progress />} />
-            <Route
-              path="/Progress/:article"
-              element={<RenderPage link={"/Progress"} />}
-            />
-            <Route path="/GameDiary" element={<GameDiary />} />
-            <Route
-              path="/GameDiary/:article"
-              element={<RenderPage link={"/GameDiary"} />}
-            />
-            {/* <Route path="/PixelArt" element={<PixelArt />} /> */}
-            <Route path="/Nikki" element={<Nikki />} />
-            <Route
-              path="/Nikki/:article"
-              element={<RenderPage link={"/Nikki"} />}
-            />
-          </Routes>
-        </div>
-      </Container>
-    </BrowserRouter>
+          {/* <img src={`${process.env.PUBLIC_URL}/photo1.jpg`} /> */}
+          <Header />
+          <div
+            className="d-flex flex-row align-item-start text-left"
+            style={{ fontFamily: "Noto Sans JP" }}
+          >
+            <Tabs />
+            <Routes>
+              <Route path="/About" element={<About />} />
+              <Route path="/Progress" element={<Progress />} />
+              <Route
+                path="/Progress/:article"
+                element={<RenderPage link={"/Progress"} />}
+              />
+              <Route path="/GameDiary" element={<GameDiary />} />
+              <Route
+                path="/GameDiary/:article"
+                element={<RenderPage link={"/GameDiary"} />}
+              />
+              {/* <Route path="/PixelArt" element={<PixelArt />} /> */}
+              <Route path="/Nikki" element={<Nikki />} />
+              <Route
+                path="/Nikki/:article"
+                element={<RenderPage link={"/Nikki"} />}
+              />
+            </Routes>
+          </div>
+        </Container>
+      </BrowserRouter>
+    </>
   );
 }
 

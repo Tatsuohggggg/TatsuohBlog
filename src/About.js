@@ -1,3 +1,4 @@
+import { Helmet } from "react-helmet";
 import { Container } from "react-bootstrap";
 import { useEffect, useState } from "react";
 import ReactMarkdown from "react-markdown";
@@ -33,8 +34,13 @@ const AboutContent = () => {
   }, []);
 
   return (
-    <ReactMarkdown rehypePlugins={rehypeRaw} components={articlestyle}>
-      {aboutContent}
-    </ReactMarkdown>
+    <>
+      <Helmet>
+        <title>About</title>
+      </Helmet>
+      <ReactMarkdown rehypePlugins={rehypeRaw} components={articlestyle}>
+        {aboutContent}
+      </ReactMarkdown>
+    </>
   );
 };

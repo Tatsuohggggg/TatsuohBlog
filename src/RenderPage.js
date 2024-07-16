@@ -1,3 +1,4 @@
+import { Helmet } from "react-helmet";
 import { Container, Image } from "react-bootstrap";
 import ReactMarkdown from "react-markdown";
 import rehypeRaw from "rehype-raw";
@@ -98,6 +99,9 @@ export const RenderPage = (props) => {
           className="overflow-auto text-left parent"
           style={{ width: "50%", height: "80vh", marginLeft: "0px" }}
         >
+          <Helmet>
+            <title>{title}</title>
+          </Helmet>
           <div className="text-wrap" style={{ width: "40vw" }}>
             <h1
               style={{

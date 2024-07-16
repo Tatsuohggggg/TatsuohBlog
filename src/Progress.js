@@ -1,6 +1,7 @@
 import { Link, useLocation } from "react-router-dom";
 import { Container, Image } from "react-bootstrap";
 import { useState, useEffect } from "react";
+import { Helmet } from "react-helmet";
 
 export const Progress = () => {
   const [files, setFiles] = useState([]);
@@ -25,39 +26,48 @@ export const Progress = () => {
   }, []);
 
   return (
-    <Container
-      className="overflow-auto text-left parent d-flex flex-column"
-      style={{ width: "70vw", height: "80vh", marginLeft: "0px" }}
-    >
-      <div style={{ width: "40vw" }}>
-        <header
-          className="d-flex flex-row align-items-end"
+    <>
+      <Helmet>
+        <title>制作進捗</title>
+      </Helmet>
+      <Container
+        className="overflow-auto text-left parent d-flex flex-column"
+        style={{ width: "70vw", height: "80vh", marginLeft: "0px" }}
+      >
+        <div style={{ width: "40vw" }}>
+          <header
+            className="d-flex flex-row align-items-end"
+            style={{
+              marginBottom: "12px",
+              borderBottom: "2px solid white",
+              opacity: "1",
+            }}
+          >
+            <h1 style={{ color: "white" }}>制作進捗</h1>
+            <p
+              style={{
+                fontSize: "14px",
+                marginBottom: "8px",
+                marginLeft: "5px",
+              }}
+            >
+              作っているものの成果報告
+            </p>
+          </header>
+        </div>
+        <div
           style={{
-            marginBottom: "12px",
-            borderBottom: "2px solid white",
-            opacity: "1",
+            width: "40vw",
+            height: "100vh",
+            backgroundColor: "rgba(128,128,128,0.5)",
           }}
         >
-          <h1 style={{ color: "white" }}>制作進捗</h1>
-          <p
-            style={{ fontSize: "14px", marginBottom: "8px", marginLeft: "5px" }}
-          >
-            作っているものの成果報告
-          </p>
-        </header>
-      </div>
-      <div
-        style={{
-          width: "40vw",
-          height: "100vh",
-          backgroundColor: "rgba(128,128,128,0.5)",
-        }}
-      >
-        {files.map((item, index) => (
-          <ArticleCard key={index} value={item} />
-        ))}
-      </div>
-    </Container>
+          {files.map((item, index) => (
+            <ArticleCard key={index} value={item} />
+          ))}
+        </div>
+      </Container>
+    </>
   );
 };
 
