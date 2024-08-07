@@ -1,12 +1,11 @@
 {
-    "articles": [
-        {
-            "title": "ReactとGithub pagesで個人ブログを作った",
-            "date": "20240614",
-            "thumbnail":"/ReactBlogThumbnail.png",
-            "link": "/ReactBlog.md",
-            "path": "/ReactBlog"
-        }
-        
-    ]
+  "articles": [
+    {
+      "title": "ReactとGithub pagesで個人ブログを作った",
+      "date": "20240614",
+      "thumbnail": "/ReactBlogThumbnail.png",
+      "link": "/ReactBlog.md",
+      "path": "/ReactBlog"
+    }
+  ]
 }

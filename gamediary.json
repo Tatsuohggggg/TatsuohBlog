@@ -1,0 +1,18 @@
+{
+  "articles": [
+    {
+      "title": "【ゼノブレイド3】ざっくり所感",
+      "date": "20240808",
+      "thumbnail": "/Xenoblade3_Thumbnail.png",
+      "link": "/Xenoblade3.md",
+      "path": "/Xenoblade3"
+    },
+    {
+      "title": "【ブルアカ】砂漠ステージは2面がセオリー",
+      "date": "20240806",
+      "thumbnail": "/BlueArchive_Title.png",
+      "link": "/BlueArchive.md",
+      "path": "/BlueArchive"
+    }
+  ]
+}

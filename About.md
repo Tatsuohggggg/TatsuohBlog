@@ -7,7 +7,7 @@
 
 <div className="d-flex flex-row align-start">
 
-![monad](/monad.png)
+![proficon](/Thanatos_proficon.png)
 
 <div className="d-flex flex-column align-start">
 
