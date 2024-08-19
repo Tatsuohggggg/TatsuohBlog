@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "準備期間1週間で基本情報技術者試験受けてみた",
+      "date": "20240819",
+      "thumbnail": "/kihonjouhou_Thumbnail.png",
+      "link": "/kihonjouhou1.md",
+      "path": "/kihonjouhou"
+    },
+    {
       "title": "xlsxファイルでマクロを使用する",
       "date": "20240716",
       "thumbnail": "/extractdataresult.png",
