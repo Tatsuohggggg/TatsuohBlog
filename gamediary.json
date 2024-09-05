@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "【パラノマサイト 本所七不思議】",
+      "date": "20240906",
+      "thumbnail": "/paranomasight_2.png",
+      "link": "/Paranomasight.md",
+      "path": "/Paranomasight"
+    },
+    {
       "title": "【ゼノブレイド3】ざっくり所感",
       "date": "20240808",
       "thumbnail": "/Xenoblade3_Thumbnail.png",
